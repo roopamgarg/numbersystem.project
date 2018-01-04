@@ -21,7 +21,7 @@ outtextxy(750,240,"WELCOME TO THE WORLD OF GAMEING");
 getch();
 initgraph(&gd,&gm,"");
 initwindow(1080,640,"insert image");
-readimagefile("C:\\Users\\hp\\Desktop\\back\\wallpapers\\ti.jpg",0,0,1080,640);
+readimagefile("/*C:\\Users\\hp\\Desktop\\back\\wallpapers\\*/ti.jpg",0,0,1080,640);
 putpixel(1080,640,WHITE);
 setcolor(4);
 setfillstyle(1,9);
